@@ -5,7 +5,7 @@
       <link rel="icon"
             type="image/png"
             href="./resources/favicon.jpg">
-      <title>Lego Town</title>
+      <title>CHILANGOLANDIA</title>
 
       <link href="styles/my-style.css" rel="stylesheet"/>
 
@@ -18,7 +18,7 @@
 
       <div id="nav-bar-holder">
         <span class="nav-item">
-          <a href="#linktotown" rel="" id="anchor1" class="no-color">Our Town</a>
+          <a href="#linktotown" rel="" id="anchor1" class="no-color">Chilangolandia</a>
         </span>
         <span class="nav-item">
           <a href="/static_pages/jobs" class="no-color">Jobs</a>
@@ -32,12 +32,15 @@
       </div>
 
       <div id="town-image">
-        <%= link_to(image_tag('town.jpg', :alt => "town", :size => "1000x500"), "/static_pages/home") %></div>
+        <%= link_to(image_tag('chilangolandia.jpg', :alt => "town", :size => "200x200"), "/static_pages/home") %></div>
       </div>
 
       <div id="product-design-header">
         <a class="no-color" name="linktotown" id="linktotown"></a>
-        <div class="big">LEGO TOWN</div>
+        <div class="big">CHILANGOLANDIA
+        <p> </p>
+        <%= link_to "Are you interested?", signup_path, class: "btn btn-lg btn-primary" %>
+        </div>
       </div>
 
       <p>
